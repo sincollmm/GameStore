@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <a class="navbar-brand">
-            trang chu
+            test
         </a>
     </div>
 </body>

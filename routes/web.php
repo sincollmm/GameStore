@@ -29,6 +29,6 @@ route::get('/GameStore/env', function(){
 
 Route::get('/send-mail', [MailController::class, 'sendMail']);
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/mail', function () {
-    return view('Mail.mail');
-})->name('mail');
+Route::middleware(['auth:sanctum', 'verified'])->get('/shop', function () {
+    return view('Shop.Shop');
+})->name('shop');
